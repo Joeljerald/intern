@@ -11,15 +11,15 @@ const BifirstPromoGrid = () => {
     <div className="h-screen w-screen bg-[#2A0031] p-6 flex flex-col">
       <div className="w-full mx-auto flex-1">
         
-        {/* ROW 1: Two Columns (50% Height) */}
+        
         <div className="grid grid-cols-10 h-96">
-          {/* Left: Small Column (30%) */}
+         
           <div className="col-span-3 bg-[#420046] p-6 rounded-3xl flex flex-col items-center justify-center relative border-r-8 border-[#2A0031]">
-            {/* Background Shapes */}
+
             <div className="absolute w-60 h-12 bg-[#5E005E] rounded-full top-1/3 left-1/2 transform -translate-x-1/2"></div>
             <div className="absolute w-60 h-12 bg-[#5E005E] rounded-full top-2/3 left-1/2 transform -translate-x-1/2"></div>
 
-            {/* Text Elements */}
+            
             <span className="bg-pink-500 text-[#2A0031] px-8 py-2 rounded-full absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 my-6 font-bold">
              Your</span>
 
@@ -34,7 +34,7 @@ const BifirstPromoGrid = () => {
             </span>
           </div>
 
-          {/* Right: Large Banner (70%) */}
+          
           <div
             className="col-span-7 rounded-xl p-7 flex flex-col justify-between border-l-2 border-[#2A0031]"
             style={{
@@ -46,10 +46,10 @@ const BifirstPromoGrid = () => {
           </div>
         </div>
 
-        {/* ROW 2: Three Main Columns (Increased Height) */}
+        
         <div className="grid grid-cols-10 mt-7 h-[550px]">
           
-          {/* Column 1: Easy Shopping (col-span-3) */}
+         
           <div className="col-span-3 bg-yellow-300 rounded-3xl p-4 flex flex-col justify-between border-r-8 border-[#2A0031]"
           style={{
             backgroundImage: `url(${m3})`,
@@ -59,9 +59,9 @@ const BifirstPromoGrid = () => {
             <div className="text-sm text-[#2A0031]">bifirst.app</div>
           </div>
 
-          {/* Column 2: Nested Grid (col-span-4) */}
+         
           <div className="col-span-4 grid grid-rows-2 gap-6 h-full border-l-8 border-r-8 border-[#2A0031]"> {/* Set height for the nested grid */}
-            {/* Full-width row */}
+           
             <div
               className="bg-[#84178ab4] rounded-2xl flex items-center justify-center p-8 h-full w-full"
               style={{
@@ -76,7 +76,7 @@ const BifirstPromoGrid = () => {
               </div>
             </div>
 
-            {/* Two small columns */}
+            
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-fuchsia-600 rounded-3xl flex items-center justify-center border-r-8 border-[#2A0031]">
                 <div className="bg-[#84178ab4] rounded-3xl flex items-center justify-center p-7 h-full w-full"
@@ -102,7 +102,7 @@ const BifirstPromoGrid = () => {
             </div>
           </div>
 
-          {/* Column 3: Mobile in Hand (col-span-3) */}
+          
           <div className="col-span-3 bg-fuchsia-600 rounded-3xl flex items-center justify-center p-6 border-l-8 border-[#2A0031]"
           style={{
             backgroundImage: `url(${m})`,
