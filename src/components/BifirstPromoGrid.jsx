@@ -60,7 +60,7 @@ const BifirstPromoGrid = () => {
           </div>
 
          
-          <div className="col-span-4 grid grid-rows-2 gap-6 h-full border-l-8 border-r-8 border-[#2A0031]"> {/* Set height for the nested grid */}
+          <div className="col-span-4 grid grid-rows-2 gap-6 h-full border-l-8 border-r-8 border-[#2A0031]">
            
             <div
               className="bg-[#84178ab4] rounded-2xl flex items-center justify-center p-8 h-full w-full"
